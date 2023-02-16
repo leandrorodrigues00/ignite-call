@@ -32,7 +32,7 @@ const timeIntervalsFormSchema = z.object({
         enabled: z.boolean(),
         startTime: z.string(),
         endTime: z.string(),
-      })
+      }),
     )
     .length(7)
     .transform((intervals) => intervals.filter((interval) => interval.enabled))
@@ -52,12 +52,12 @@ const timeIntervalsFormSchema = z.object({
       (intervals) => {
         return intervals.every(
           (interval) =>
-            interval.endTimeInMinutes - 60 >= interval.startTimeInMinutes
+            interval.endTimeInMinutes - 60 >= interval.startTimeInMinutes,
         )
       },
       {
         message: 'O horário de término deve ser pelo menos 1h após o de inicio',
-      }
+      },
     ),
 })
 
