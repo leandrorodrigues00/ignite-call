@@ -10,7 +10,7 @@ const updateProfileBodySchema = z.object({
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse,
 ) {
   if (req.method !== 'PUT') {
     return res.status(405).end()
@@ -19,7 +19,7 @@ export default async function handler(
   const session = await getServerSession(
     req,
     res,
-    buildNextAuthOptions(req, res)
+    buildNextAuthOptions(req, res),
   )
 
   if (!session) {
