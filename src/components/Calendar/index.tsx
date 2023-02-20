@@ -66,7 +66,7 @@ export function Calendar({ selectedDate, onDateSelected }: CalendarProps) {
 
     const lastDayInCurrentMonth = currentDate.set(
       'date',
-      currentDate.daysInMonth()
+      currentDate.daysInMonth(),
     )
     const lastWeekDay = lastDayInCurrentMonth.get('day')
 
@@ -102,7 +102,7 @@ export function Calendar({ selectedDate, onDateSelected }: CalendarProps) {
 
         return weeks
       },
-      []
+      [],
     )
 
     return calendarWeeks
