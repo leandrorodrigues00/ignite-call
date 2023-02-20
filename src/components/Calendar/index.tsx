@@ -81,8 +81,8 @@ export function Calendar({ selectedDate, onDateSelected }: CalendarProps) {
         return { date, disabled: true }
       }),
       ...daysInMonthArray.map((date) => {
-        const isDateBeforeToday = date.endOf('day').isBefore(new Date())
-        return { date, disabled: isDateBeforeToday }
+        const isPastDate = date.endOf('day').isBefore(new Date())
+        return { date, disabled: isPastDate }
       }),
       ...nextMonthFillArray.map((date) => {
         return { date, disabled: true }
