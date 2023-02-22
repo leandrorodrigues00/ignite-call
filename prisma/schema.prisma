@@ -40,7 +40,8 @@ model Account {
   scope               String?
   id_token            String? @db.Text
   session_state       String?
-  user                User    @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  user User @relation(fields: [user_id], references: [id], onDelete: Cascade)
 
   @@unique([provider, provider_account_id])
   @@map("accounts")
@@ -51,7 +52,8 @@ model Session {
   session_token String   @unique
   user_id       String
   expires       DateTime
-  user          User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  user User @relation(fields: [user_id], references: [id], onDelete: Cascade)
 
   @@map("sessions")
 }
