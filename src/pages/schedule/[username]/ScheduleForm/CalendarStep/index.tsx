@@ -52,7 +52,7 @@ export function CalendarStep({ onSelectDateTime }: CalendarStepProps) {
     },
     {
       enabled: !!selectedDate,
-    }
+    },
   )
 
   function handleSelectTime(hour: number) {
