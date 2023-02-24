@@ -52,7 +52,7 @@ You can view the project layout through the links below:
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with NPM)_
-- [MySQL](https://www.mysql.com/) or a [Docker](https://hub.docker.com/_/mysql) container with a MySQL server instance
+- [MySQL](https://www.mysql.com/) or [Docker](https://hub.docker.com/_/mysql) container with a MySQL server instance
 
 **Clone the project and access the folder**
 
