@@ -51,7 +51,8 @@ You can view the project layout through the links below:
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with yarn)_
+- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with NPM)_
+- [MySQL](https://www.mysql.com/) or a [Docker](https://hub.docker.com/_/mysql) container with a MySQL server instance
 
 **Clone the project and access the folder**
 
@@ -64,14 +65,18 @@ $ git clone https://github.com/leandrorodrigues00/ignite-call && cd ignite-call
 
 ```bash
 # Install the dependencies
-$ yarn
+$ npm i
 
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
 $ cp .env.example .env
 
+# Start the database with docker
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:lates
+
+
 # Start the app
-$ yarn dev
+$ npm run dev
 ```
 
 ## 📝 License
