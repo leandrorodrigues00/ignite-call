@@ -17,7 +17,11 @@
 
 ## 👩‍💻 About the project
 
-<Descrição maneira aqui !>
+This application is a FullStack project that allows users to create appointments in Google Calendar. By logging in with their Google account, users can filter available schedules and create appointments on their desired dates, which will be automatically registered in Google Calendar.
+
+To achieve this, the project makes use of powerful tools such as the NextJS framework, ORM Prisma, and MySQL database. The authentication with Google was implemented through NextAuth and Google's API, working with token management and cookies. The application's UI was styled using a Design System developed by me, called [Ignis Design System](https://github.com/leandrorodrigues00/ignis-design-system), which greatly facilitated the project's creation.
+
+Combining these technologies, this project offers a complete solution for scheduling and appointment management with seamless Google Calendar integration.  
 
 Built during [Rocketseat](https://rocketseat.com.br/) ReactJS course, where I was able to deepen my knowledge of this front-end library
 
