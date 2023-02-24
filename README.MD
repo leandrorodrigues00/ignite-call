@@ -74,7 +74,6 @@ $ cp .env.example .env
 # Start the database with docker
 $ docker run --name mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:lates
 
-
 # Start the app
 $ npm run dev
 ```
