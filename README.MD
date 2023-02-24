@@ -37,13 +37,19 @@ You can view the project layout through the links below:
 
 ## 🚀 Technologies
 
-- [NextJs](https://nextjs.org/)
-- [Ignis Design System](https://github.com/leandrorodrigues00/ignis-design-system)
+- [Axios](https://www.axios.com/)
 - [DayJs](https://day.js.org/)
-- [Prisma](https://www.prisma.io/)
-- [NextAuth.js](https://next-auth.js.org/)
+- [Googleapis](https://www.npmjs.com/package/googleapis)
+- [Ignis Design System](https://github.com/leandrorodrigues00/ignis-design-system)
 - [MySQL](https://www.mysql.com/)
+- [Next-auth](https://next-auth.js.org/)
+- [NextJs](https://nextjs.org/)
+- [Next-seo](https://github.com/garmeeh/next-seo)
+- [Nookies](https://www.npmjs.com/package/nookies)
+- [Phosphor-react](https://phosphoricons.com/)
+- [Prisma](https://www.prisma.io/)
 - [React hook form](https://react-hook-form.com/)
+- [React-query](https://react-query-v3.tanstack.com/)
 - [Zod](https://github.com/colinhacks/zod)
 
 ## 💻 Getting started
