@@ -27,7 +27,7 @@ Built during [Rocketseat](https://rocketseat.com.br/) ReactJS course, where I wa
 
 [click here, see closer](https://ignite-call-cs.vercel.app/) 😉
 
-**Note:** The project database was deployed on Planetscale. However, if the database remains inactive for a specific period,  it will enter sleep mode, and requires manual activation to prevent the online site from crashing. Alternatively, you can download the project and run it with your own database, which will work fine.
+**Note:** The project database was deployed on Planetscale. However, if the database remains inactive for a specific period,  it will enter sleep mode, and requires manual activation to prevent the online site from crashing. Alternatively, you can download the project and run it with your own database/Docker, which will work fine.
 
 ## 🔖 Layout
 
