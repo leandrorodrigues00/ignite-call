@@ -23,11 +23,9 @@ To achieve this, the project makes use of powerful tools such as the NextJS fram
 
 Combining these technologies, this project offers a complete solution for scheduling and appointment management with seamless Google Calendar integration.  
 
-Built during [Rocketseat](https://rocketseat.com.br/) ReactJS course, where I was able to deepen my knowledge of this front-end library
-
 [click here, see closer](https://ignite-call-cs.vercel.app/) 😉
 
-**Note:** The project database was deployed on Planetscale. However, if the database remains inactive for a specific period,  it will enter sleep mode, and requires manual activation to prevent the online site from crashing. Alternatively, you can download the project and run it with your own database/Docker, which will work fine.
+**Note:** The project database was deployed on Planetscale. However, if the database remains inactive for a specific period, it will enter sleep mode, and requires manual activation to prevent the online site from crashing. 
 
 ## 🔖 Layout
 
