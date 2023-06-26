@@ -39,7 +39,7 @@ You can view the project layout through the links below:
 
 - [Axios](https://www.axios.com/)
 - [DayJs](https://day.js.org/)
-- [Googleapis](https://www.npmjs.com/package/googleapis)
+- [Google APIs](https://www.npmjs.com/package/googleapis)
 - [Ignis Design System](https://github.com/leandrorodrigues00/ignis-design-system)
 - [MySQL](https://www.mysql.com/)
 - [Next-auth](https://next-auth.js.org/)
